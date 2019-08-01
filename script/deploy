@@ -1,4 +1,5 @@
 #!/bin/sh
+#Deploy
 ssh pascacio@67.205.140.69 <<EOF
  cd ~/NodeJs-Jenkins
  git pull
