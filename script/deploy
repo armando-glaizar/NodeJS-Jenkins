@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh pascacio@67.205.140.69 <<EOF
- cd ~/node-app
+ cd ~/NodeJs-Jenkins
  git pull
  npm install -production
  pm2 restart all
